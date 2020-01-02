@@ -1,0 +1,305 @@
+@font-face { font-family: 'PyunjiR-HM'; src: url('../fonts/pyunjir.ttf') }
+@font-face {font-family: 'NanumBarunGothic', sans-serif; src: url('https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css') }
+
+
+html, body, section{background-color: #fff; margin: 0 auto !important; letter-spacing: -2px !important;}
+html, body, header, nav, a, img, ol, ul, li, p, div, span, h1, h2, h3, h4, h5, h6, input, textarea, i, form { margin:0; padding:0; }
+html, body, h1, h2, h3, h4, h5, h6, input, textarea, select, button { font-family: 'NanumBarunGothic', sans-serif; font-family: 'NanumBarunpen', serif; font-size:13px; font-weight:normal; color:#000; -webkit-font-smoothing:antialiased; }
+a, a:link, a:visited, a:hover, a:active { text-decoration:none; color:inherit; cursor:pointer; }
+ol, ul, li { list-style:none; }
+img { border:none; }
+input, textarea { outline:none; vertical-align:baseline; }
+input {
+  font-family: NanumBarunpen;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;}
+
+:root {
+  --white: #ffffff;
+  --very-light-pink: #e5e5e5;
+  --very-light-pink-two: #c6c6c6;
+  --brown-grey: #808080;
+  --greyish-brown: #404040;
+  --black: #000000;
+  --frog-green: #30c800;
+  --pale-grey: #f5f5fa;
+  --butterscotch: #ffb849;
+  --lightblue: #6dd0ed;
+  --lavender: #c89ce2;
+  --cornflower: #6a60ee;
+  --coral: #ec5656;
+}
+
+/* header */
+.header{
+  height: 50px;
+  background-color: #6379f2;
+  position: sticky !important;
+  top:0;
+}
+
+.mainlogo{
+  margin-left: 26px;
+  margin-top: 6px;
+  width: 110.9px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.textlogo{
+  vertical-align: bottom;
+  width: 42px;
+  height: 17px;
+  font-family: PyunjiR-HM;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: var(--white);
+}
+
+.logoutIcon{
+  width: 24px;
+  height: 24px;
+}
+
+.logoutText{
+  margin-right: 30px;
+  vertical-align: middle;
+  width: 54px;
+  height: 18px;
+  font-family: NanumBarunGothic;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: left;
+  color: var(--white);
+}
+/* header end */
+
+
+/* navigation bar */
+.view{
+  height: calc(100vh - 50px);
+}
+
+.leftNav{
+  border-right: 1px solid #cbd2eb;
+  width:235px;
+  height: 100%;
+  margin-left: 15px;
+}
+
+.sidebar{
+  flex:0 1 250px;
+  position:sticky;
+  /* height: calc(100vh - 50px); */
+
+}
+
+.username{
+  font-family: NanumBarunGothic;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+
+  text-align: center;
+  color: #282628;
+}
+
+.underline{
+  /* width: 230px; */
+  height: 1px;
+  background-color: #cbd2eb;
+  margin-right:-15px;
+}
+
+.nav{
+  font-family: NanumBarunGothic;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+
+  color: #282628;
+}
+/*
+.bottomNav{
+  bottom:0;
+} */
+
+.nav-link{
+  padding:0 5px !important;
+}
+
+.notice{
+  font-family: NanumBarunGothic;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  color: #282628;
+}
+
+.csinfo{
+  font-family: NanumBarunGothic;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+
+  color: #282628;
+}
+/* navigation bar end */
+
+/* main */
+.main{
+  width: calc(100vw - 250px);
+  background-color: #f5f6fb;
+}
+
+.createClass{
+  width: 926px;
+  font-family: NanumBarunGothic;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+.createText{
+  
+}
+
+.content{
+  width: 926px;
+  height: 767px;
+  background-color: white;
+  padding: 23px 123px 32px 111px;
+}
+
+.progressBar{
+  /* height:20px; */
+}
+.progressBackground{
+  width: 480px;
+  /* height: 10px; */
+  /* object-fit: contain;
+  border-radius: 10px;
+  background-color: #f5f6fb; */
+}
+
+.pointBig{
+  padding:0;
+}
+
+.big{
+  height:16px;
+}
+
+.pointSmall{
+  padding:0;
+}
+
+.small{
+  height:4px;
+}
+
+.progressText{
+  width: 580px;
+  font-family: NotoSansCJKkr;
+  font-size: 14px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: -1.6px;
+  text-align: left;
+  color: #6379f2;
+}
+
+.w-33{
+  width: 33%;
+}
+
+.basicInfo{
+  letter-spacing: -2px;
+}
+.items{
+  font-family: NanumBarunGothic;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  text-align: left;
+  color: #282628;
+}
+
+.itemContents{
+  margin-left: -125px;
+  font-family: NanumBarunGothic;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  text-align: left;
+  color: #282628;
+}
+
+.profileEdit{
+  margin-top:-15px;
+  font-family: NanumBarunGothic;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  text-align: left;
+  color: #6379f2;
+}
+.itemStyle{
+  margin-top:27px;
+}
+
+.caution{
+  padding:0;
+  margin: 27px 15px 0 0;
+  width:341px;
+  height: 500px;
+  background-color: #f2f2f2;
+  font-family: NanumBarunGothic;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  color: #6b6b6b;
+}
+
+.createClassButton{
+  background-image: url("../images/createClassButton@3x.png");
+  width: 341px;
+  height: 60px;
+  object-fit: contain;
+  background-size: cover;
+  font-family: Arial;
+  font-size: 24px;
+  color : white !important;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.3;
+  text-align: center;
+}

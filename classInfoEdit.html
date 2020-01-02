@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Columbooks">
+    <meta name="description" content="columbooks 콜롬북스">
+    <meta name="robots" content="noindex, follow">
+    <title>콜롬북스</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="styles/classInfoEdit.css"/>
+  </head>
+  <body>
+    <header class="header container-fluid ">
+      <div class="row justify-content-between">
+        <div class="col">
+          <div class="align-middle">
+            <img src="images/logoIconWhite@3x.png" class="mainlogo" alt="">
+            <span class="textlogo">선생님</span>
+          </div>
+
+        </div>
+        <div class="col align-self-center text-right">
+          <div class="">
+            <img class="logoutIcon" src="images/logoutIcon@3x.png" alt="">
+            <span class="logoutText">로그아웃</span>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid view">
+      <div class="row flex-nowrap h-100">
+        <div class="leftNav">
+          <div class="row h-50 flex-nowrap">
+            <div class="col sidebar">
+              <div class="topNav text-center pt-5 pb-2">
+                <div class="">
+                  <img class="profile" src="images/profile.png" alt="">
+                </div>
+                <div class="username pt-4">
+                  <span class="">김북스 선생님</span>
+                </div>
+                <div class="underline mt-3"></div>
+                <div class="">
+                  <ul class="nav flex-column">
+                    <li class="nav-item pt-5">
+                        <a class="nav-link " href="#">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <span class="">
+                              클래스 현황
+                            </span>
+                            <img class="" src="images/cramp@3x.png" style="height:17px;" alt="">
+                          </div>
+                        </a>
+                    </li>
+                    <li class="nav-item pt-5">
+                        <a class="nav-link " href="#">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <span class="">
+                              선생님 프로필
+                            </span>
+                            <img class="" src="images/cramp@3x.png" style="height:17px;" alt="">
+                          </div>
+                        </a>
+                    </li>
+                    <li class="nav-item pt-5">
+                        <a class="nav-link " href="#">
+                          <div class="d-flex justify-content-between align-items-center">
+                            <span class="">
+                              정산/수익
+                            </span>
+                            <img class="" src="images/cramp@3x.png" style="height:17px;" alt="">
+                          </div>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row h-50 flex-nowrap align-items-end">
+            <div class="col sidebar align-self-end">
+              <div class="bottomNav text-left">
+                <div class="underline"></div>
+                <div class="my-4">
+                  <div class="notice mt-4 font-weight-bold">
+                    <span>공지사항</span>
+                  </div>
+                  <div class="notice mt-4">
+                    <span>선생님 도움말</span>
+                  </div>
+                  <div class="notice mt-4">
+                    <span>카카오톡 상담</span>
+                  </div>
+                </div>
+
+                <div class="underline"></div>
+                <div class="csinfo mt-4 mb-5">
+                  <p>고객센터 운영시간</p>
+                  <p>평일 : 10:00 ~ 18:00</p>
+                  <p>토/일/공휴일 : 휴무</p>
+                  <p>점심시간 : 12:00 ~ 13:00</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col main">
+          <div class="row">
+            <div class="col">
+              <div class="createClass mx-auto">
+                <div class="createText my-4">
+                  <img src="images/cramp@3x.png" style="height:17px;" alt="">
+                  <span>클래스 소개 수정</span>
+                </div>
+              </div>
+              <div class="main">
+                <!-- ajax + api연동 구현시 서버 부담 안가게 효율적으로 구현 필요 -->
+                <!-- class info item 항목 모두 ajax api 필요 -->
+                <div class="classNum float-left">
+                  <span>클래스번호 : 321654987</span>
+                </div>
+                <div class="classObject">
+                  <div class="thumnail">
+                    <img src="" alt="">
+                  </div>
+                  <div class="classInfo1">
+                    <div class="className">
+                      <span>이런저런 멋진 클래스</span>
+                    </div>
+                    <div class="starRating">
+                      <span>★4.9(9999)</span>
+                    </div>
+                  </div>
+                  <div class="classInfo2 row">
+                    <div class="col">
+                      <span>원데이 클래스</span>
+                    </div>
+                    <div class="col">
+                      <span> 서울 / 강남 외1</span>
+                    </div>
+                    <div class="col">
+                      <span>2시간 / 회당</span>
+                    </div>
+                    <div class="col">
+                      <span>20000원 / 시간</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="desc">
+                  <div class="thumnail">
+                    <div class="subtitle">
+                      <span>클래스 대표이미지</span>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 썸네일 이미지 리스트 매우 중요(from 진하팀장) 가이드+그리드 신경쓸것 -->
+                    </div>
+                  </div>
+                  <div class="video">
+                    <div class="subtitle">
+                      <span>소개영상</span>
+                    </div>
+                    <div class="contentbox">
+                      <input type="text" name="" value="" placeholder="youtube URL을 입력해주세요.">
+                    </div>
+                  </div>
+                  <div class="forWho">
+                    <div class="subtitle">
+                      <span>우리 수업은 이런 분들을 위한 수업이에요</span>
+                    </div>
+                    <div class="smalltitle">
+                      <span>어떤 분들을 위한 수업인지 자세히 설명해주세요.</span>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 에디터 embed -->
+                    </div>
+                  </div>
+                  <div class="objective">
+                    <div class="subtitle">
+                      <span>학습목표</span>
+                    </div>
+                    <div class="smalltitle">
+                      <p>우리 클래스에서는 어떤 학습목표를 가지고 있는지 자세히 설명해 주세요.</p>
+                      <p>구체적일수록 학생들의 반응이 좋아집니다.</p>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 에디터 embed -->
+                    </div>
+                  </div>
+                  <div class="howTo">
+                    <div class="subtitle">
+                      <span>클래스 진행방식</span>
+                    </div>
+                    <div class="smalltitle">
+                      <span>우리 클래스는 어떻게 진행이 되는지 학생분들이 이해하기 쉽게 구체적으로 설명해주세요.</span>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 에디터 embed -->
+                    </div>
+                  </div>
+                  <div class="afterClass">
+                    <div class="subtitle">
+                      <span>클래스 과정이 끝난 후, 여러분은 이렇게 바뀔 겁니다.</span>
+                    </div>
+                    <div class="smalltitle">
+                      <span>클래스가 모두 끝난 후, 학생분들의 변화 모습을 머릿속으로 그릴 수 있도록 자세히 설명해 주세요.</span>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 에디터 embed -->
+                    </div>
+                  </div>
+                  <div class="Additional">
+                    <div class="subtitle">
+                      <span>추가사항</span>
+                    </div>
+                    <div class="smalltitle">
+                      <p>추가적으로 학생분들을 위한 TIP이나 설명, 추가적인 정보 등의 내용을 자유롭게 넣어주세요.</p>
+                      <p>(개인 연락처를 넣으시면 규정 위반입니다.)</p>
+                    </div>
+                    <div class="contentbox">
+                      <!-- 에디터 embed -->
+                    </div>
+                  </div>
+                </div>
+                <div class="submit">
+                  <div class="escape">
+                    <button type="button" name="button">저장없이 돌아가기</button>
+                  </div>
+                  <div class="save">
+                    <button type="button" name="button">수정사항 저장</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+  <script src="script/classInfoEdit.js"></script>
+  <!-- jquery js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Columbooks">
+    <meta name="description" content="columbooks 콜롬북스">
+    <meta name="robots" content="noindex, follow">
+    <title>콜롬북스</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- local css -->
+    <link rel="stylesheet" href="styles/account.css"/>
+  </head>
+  <body>
+    <header class="container-fluid header">
+      <div class="float-left">
+        <a href="#">콜롬북스 홈</a>
+      </div>
+      <div class="float-right">
+        <a href="#">비즈니스 홈</a>
+      </div>
+    </header>
+
+
+    <div class="container-fluid main">
+      <!-- 백그라운드 컬러 + 이미지 넣어야함 -->
+
+      <!-- 프로세스, 상태여부에 따라 content ajax 구현 필요 -->
+      <div class="content" id="trance1">
+        <div class="title">
+          <!-- 백그라운드 '북' 글자와 그리드 맞춰서 margin 필요 -->
+          <span>선생님 로그인</span>
+        </div>
+          <article class="article">
+            <div class="">
+              <span>선생님 회원이 아닌 것 같아요.</span>
+            </div>
+            <div class="">
+              <span>김북스님, 선생님 회원으로 전환할까요?</span>
+            </div>
+            <div class="">
+              <span>선생님 회원도 기존 서비스는 이용하실 수 있습니다!</span>
+            </div>
+            <div class="">
+              <a href="#">선생님 회원으로 전환하기</a>
+            </div>
+            <div class="">
+              <span>콜롬북스 홈페이지로 이동하기</span>
+            </div>
+          </article>
+      </div>
+
+      <div class="content" id="trance2">
+        <div class="title">
+          <!-- 백그라운드 '북' 글자와 그리드 맞춰서 margin 필요 -->
+          <span>선생님 로그인</span>
+        </div>
+          <article class="article">
+            <div class="">
+              <span>간편 로그인 계정은 선생님 등록이 불가능해요.</span>
+            </div>
+            <div class="">
+              <span>콜롬북스 계정으로 이전할까요?</span>
+            </div>
+            <div class="">
+              <p>간편 로그인 방식은 잃게 되지만, 선생님으로 활동하실 수 있어요.</p>
+              <p>내 서재 등 기존 정보는 날아가지 않으니 걱정 마세요!@</p>
+            </div>
+            <div class="">
+              <a href="#">콜롬북스 계정으로 이전하기</a>
+            </div>
+            <div class="">
+              <span>콜롬북스 홈페이지로 이동하기</span>
+            </div>
+          </article>
+      </div>
+
+      <div class="content" id="signin">
+        <div class="title">
+          <!-- 백그라운드 '북' 글자와 그리드 맞춰서 margin 필요 -->
+          <span>선생님 로그인</span>
+        </div>
+        <article class="article">
+          <div class="inputBig">
+            <div class="inputId">
+              <input type="text" name="id" value="">
+            </div>
+            <div class="inputPw">
+              <input type="text" name="pw" value="">
+              <img class="visibility" src="" alt="">
+            </div>
+            <div class="loginButton">
+              <button class="login" type="button" name="button"></button>
+            </div>
+            <div class="loginCheck">
+              <span>로그인 상태 유지하기</span>
+            </div>
+            <div class="kakaoLogin">
+              <button class="login" type="button" name="button">
+                <img src="" alt="">
+              </button>
+            </div>
+            <div class="facebookLogin">
+              <button class="login" type="button" name="button">
+                <img src="" alt="">
+              </button>
+            </div>
+            <div class="problem">
+              <span>로그인 하는 데 문제가 있나요? <a href="#">여기</a>를 클릭</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="content" id="signup">
+        <div class="title">
+          <!-- 백그라운드 '북' 글자와 그리드 맞춰서 margin 필요 -->
+          <span class="">콜롬북스 계정으로 이전</span>
+        </div>
+        <article class="article">
+          <div class="inputSmall">
+            <div class="item">
+              <span>e-mail</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" value="">
+            </div>
+          </div>
+          <div class="inputSmall">
+            <div class="item">
+              <span>보조 e-mail</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" value="">
+            </div>
+          </div>
+          <div class="inputSmall">
+            <div class="item">
+              <span>비밀번호</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" value="">
+            </div>
+          </div>
+          <div class="inputSmall">
+            <div class="item">
+              <span>비밀번호 확인</span>
+            </div>
+            <div class="inputbox">
+              <input type="text" name="" value="">
+            </div>
+          </div>
+
+          <!-- input js 비교 후 랜더 -->
+          <div class="notCorrect">
+            <span>비밀번호가 일치하지 않습니다.</span>
+          </div>
+
+          <div class="moveAccount">
+            <button type="login" name="button">콜롬북스 계정으로 이전완료</button>
+          </div>
+
+        </article>
+      </div>
+
+      <div class="content" id="signup2">
+        <div class="title">
+          <!-- 백그라운드 '북' 글자와 그리드 맞춰서 margin 필요 -->
+          <span>콜롬북스 계정으로 이전</span>
+        </div>
+          <article class="article">
+            <div class="">
+              <span>계정 이전이 완료되었습니다!</span>
+            </div>
+            <div class="">
+              <span>환영합니다. <strong>김북스</strong>님!</span>
+            </div>
+            <div class="">
+              <p>로그인하러 가볼까요?</p>
+            </div>
+            <div class="">
+              <a href="#">로그인하러 가기</a>
+            </div>
+            <div class="">
+              <span>콜롬북스 홈페이지로 이동하기</span>
+            </div>
+          </article>
+      </div>
+    </div>
+
+
+    <footer class="container-fluid footer">
+      <div class="copanyInfo">
+        <div class="kakaoCs">
+
+        </div>
+        <div class="info">
+          <!-- 텍스트 사이즈 + letter spacing 에 따른 그리드 주의할것 -->
+          (주) 포스픽
+          대표이사 : 이홍열  |  06242 서울특별시 강남구 강남대로 342 506호 (역삼동, 역삼빌딩)
+          대표 전화 : 070-4010-4438  |  팩스 : 070-8282-6161  |  이메일 : support@fourspeak.com
+          사업자 등록번호 : 897-87-00045  |  통신판매업  신고번호 : 제 2016-서울강남-0100
+          개인정보보호책임 : 강권우 | 호스팅 사업자 : 통큰아이
+          Copyright © Fourspeak Inc. All Rights Reserved
+        </div>
+      </div>
+      <div class="siteMap">
+        <p>
+          <a href="">서비스 이용약관 | </a>
+          <a href="">개인정보 처리방침 | </a>
+          <a href="">취소 / 환불 정책</a>
+        </p>
+      </div>
+      <div class="">
+
+      </div>
+      <div class="storeLink">
+        <a href=""></a>
+        <a href=""></a>
+      </div>
+
+    </footer>
+
+  </body>
+  <!-- local js -->
+  <script src="script/account.js"></script>
+  <!-- jquery js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
